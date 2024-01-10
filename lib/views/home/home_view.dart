@@ -8,7 +8,6 @@ import 'package:flutter_offline_todo/utils/constants.dart';
 import 'package:flutter_offline_todo/utils/strings.dart';
 import 'package:flutter_offline_todo/views/home/widgets/task_widget.dart';
 import 'package:flutter_offline_todo/views/tasks/task_view.dart';
-import 'package:flutter_slider_drawer/flutter_slider_drawer.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:lottie/lottie.dart';
 

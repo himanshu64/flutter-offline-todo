@@ -33,13 +33,13 @@ class Task extends HiveObject {
   factory Task.create({
     required String? title,
     required String? subtitle,
-    DateTime? createdAtTime,
-    DateTime? createdAtDate,
+    bool? isCompleted = false
+
   }) =>
       Task(
         id: const Uuid().v1(),
         title: title ?? "",
         subtitle: subtitle ?? "",
-        isCompleted: false,
+        isCompleted: isCompleted??false,
       );
 }
